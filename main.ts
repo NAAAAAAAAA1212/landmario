@@ -31,7 +31,7 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 scene.setBackgroundColor(9)
 scene.cameraFollowSprite(mySprite)
-tiles.setCurrentTilemap(tilemap`層級1`)
 tiles.placeOnRandomTile(mySprite, assets.tile`我的貼圖1`)
+tiles.setCurrentTilemap(tilemap`層級1`)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 350
