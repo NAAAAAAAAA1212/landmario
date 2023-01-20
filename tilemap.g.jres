@@ -8,25 +8,25 @@
         "data": "hwQQABAAAADn7u7u7u7u7ufu7u7u7u7u5+7u7u7u7u7n7u7u7u7u7ufu7u7u7u7u5+7u7u7u7u7n7u7u7u7u7ufu7u7u7u7u5+7u7u7u7u7n7u7u7u7u7ufu7u7u7u7u5+7u7u7u7u7n7u7u7u7u7ufu7u7u7u7u5+7u7u7u7u7n7u7u7u7u7g==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "我的貼圖"
+        "displayName": "草方塊"
     },
     "tile2": {
         "data": "hwQQABAAAAACAAAAAAAA8CAAAAAAAADyAAIAAAAAIPAAIAAAAAAC8AAAAgAAIADwAAAgAAACAPAAAAACIAAA8AAAACACAADwAAAAIAIAAPAAAAACIAAA8AAAIAAAAgDwAAACAAAgAPAAIAAAAAAC8AACAAAAACDwIAAAAAAAAPICAAAAAAAA8A==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "我的貼圖0"
+        "displayName": "死亡點"
     },
     "tile3": {
         "data": "hwQQABAAAAD//////////5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "我的貼圖1"
+        "displayName": "復活點1"
     },
     "tile4": {
         "data": "hwQQABAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADw//////////8iIgIAAAAA8CAiAgAAAADwACICAAAAAPAAIAIAAAAA8AAAAgAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8A==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "我的貼圖2"
+        "displayName": "終點"
     },
     "層級1": {
         "id": "層級1",
@@ -39,7 +39,7 @@
             "myTiles.tile3",
             "myTiles.tile4"
         ],
-        "displayName": "層級1"
+        "displayName": "遊戲關卡"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

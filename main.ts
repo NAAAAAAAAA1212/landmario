@@ -11,24 +11,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`我的貼圖0`, function (spr
 })
 let mySprite: Sprite = null
 let relive = 0
-mySprite = sprites.create(img`
-    7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-    7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-    7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    e e e e e e e e e e e e e e e e 
-    `, SpriteKind.Player)
+mySprite = sprites.create(assets.image`角色`, SpriteKind.Player)
 scene.setBackgroundColor(9)
 scene.cameraFollowSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`層級1`)
