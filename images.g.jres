@@ -1,0 +1,12 @@
+{
+    ":RY1Ukc6_Y13TY{fNyi": {
+        "data": "hwQQABAAAAB35+7u7u7u7nfn7u7u7u7ud+fu7u7u7u535+7u7u7u7nfn7u7u7u7ud+fu7u7u7u535+7u7u7u7nfn7u7u7u7ud+fu7u7u7u535+7u7u7u7nfn7u7u7u7ud+fu7u7u7u535+7u7u7u7nfn7u7u7u7ud+fu7u7u7u535+7u7u7u7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "角色"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
