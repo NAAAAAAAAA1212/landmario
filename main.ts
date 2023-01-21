@@ -29,11 +29,11 @@ info.onLifeZero(function () {
     info.setLife(30)
 })
 function nextlevel () {
-    if (level == 1) {
+    if (level == 2) {
         tiles.setCurrentTilemap(tilemap`層級3`)
         tiles.placeOnRandomTile(mySprite, assets.tile`復活點1`)
     }
-    if (level == 2) {
+    if (level == 3) {
         game.over(true)
     }
 }
