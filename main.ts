@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, assets.tile`我的貼圖2`, function (sprite, location) {
+    tiles.placeOnRandomTile(mySprite, assets.tile`復活點1`)
+})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`終點0`, function (sprite, location) {
     tiles.placeOnRandomTile(mySprite, assets.tile`復活點1`)
 })
@@ -8,6 +11,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`終點`, function (sprite, location) {
     game.over(true)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`我的貼圖4`, function (sprite, location) {
+    info.setLife(30000)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`我的貼圖0`, function (sprite, location) {
     info.changeLifeBy(-1)
@@ -22,9 +28,11 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`我的貼圖`, function (spri
 scene.onOverlapTile(SpriteKind.Player, assets.tile`死亡點`, function (sprite, location) {
     tiles.placeOnRandomTile(mySprite, assets.tile`復活點1`)
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`復活點1`, function (sprite, location) {
+    info.setLife(30000)
+})
 let mySprite: Sprite = null
 info.setLife(30000)
-let relive = 0
 mySprite = sprites.create(assets.image`角色`, SpriteKind.Player)
 scene.setBackgroundColor(9)
 scene.cameraFollowSprite(mySprite)
