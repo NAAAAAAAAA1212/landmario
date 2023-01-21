@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, assets.tile`終點0`, function (sprite, location) {
+    tiles.placeOnRandomTile(mySprite, assets.tile`復活點1`)
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mySprite.vy == 0) {
         mySprite.vy = -175
